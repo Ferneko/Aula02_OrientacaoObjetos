@@ -19,6 +19,11 @@ namespace Aula02_OrientacaoObjetos.Controllers
         {
             return View();
         }
+
+        public IActionResult Listar()
+        {
+            return View();
+        }
         [HttpPost]
         public IActionResult salvar(Pessoa item)
         {
